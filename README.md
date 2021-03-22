@@ -1,4 +1,4 @@
-# Nexus
+# Nexus Repository 
 
 ## Admin Password
 The initial password for the admin user can be found in an admin.password file found in the $data-dir directory after starting the server.
