@@ -9,12 +9,12 @@ services:
     ports: 
     - 8081:8081
     networks:
-    - local
+    - local-network
 
 volumes:
   nexus-volume:
     name: nexus-data
 
 networks: 
-  local:
-    name: local_network
+  local-network:
+    name: local-network
